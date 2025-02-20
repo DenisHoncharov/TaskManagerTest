@@ -7,7 +7,7 @@ For start BE application you should run:
 (We use SQLite as database so it is not needed to use database configuration)
 - cd be-task-manager
 - composer install
-- cp .env.example
+- cp .env.example .env
 - php artisan key:generate
 - php artisan serve
 
