@@ -9,6 +9,7 @@ For start BE application you should run:
 - composer install
 - cp .env.example .env
 - php artisan key:generate
+- php artisan migrate
 - php artisan serve
 
 (You should remain on what URL server was started. Usually it is server running on http://127.0.0.1:8000)
